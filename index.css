@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 75%;
+    display: flex;
+    gap: 1.5rem;
+    margin: 10rem auto;
+    border: 2px solid rgba(128, 128, 128, 0.548);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    /* padding: 3rem */
+}
+
+.left-container{
+    padding: 1rem;
+    background-color:rgb(138, 190, 207);
+}
+
+.left-container > div{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.left-container > div h2{
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    background-color: #aaa2a2;
+    border-radius: 10px;
+    box-shadow: 0 0 0.9rem black;
+    text-align: center;
+}
+.left-container > div a{
+    text-decoration: none;
+}
+
+.profile-picture{
+    padding: 1.5rem;
+    width: 15rem;
+}
+.profile-picture > img{
+  width: 15rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid black;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0.9rem black;
+}
+.profile-picture > p{
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+}
+
+
+
+.right-container{
+    padding: 1rem;
+}
+.right-container > h2{
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+.right-container > div {
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.right-container > div h2{
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    background-color: #aaa2a2;
+    border-radius: 10px;
+    box-shadow: 0 0 0.9rem black;
+}
+.right-container > div ul li{
+    margin-left: 1.5rem;
+}
+
+
+.button > button{
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 0.9rem black;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.button > button:hover{
+    background-color:rgba(128, 128, 128, 0.525);
+}
